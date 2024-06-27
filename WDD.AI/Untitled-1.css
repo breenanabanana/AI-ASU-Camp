@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>happy fathers day ♡</title>
+        <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+        <!--link rel="stylesheet" type="text/css" media="screen and (max-aspect-ratio:16/9)" href="mobiletest.css"-->
+        <link rel="shortcut icon" href="https://seafare.neocities.org/images%20-%20index/e585b3a7.gif" type="image/x-icon">
+         
+         
+    <style>
+        @font-face {
+        font-family: 'abaddon_light';
+         src: url(https://seafare.neocities.org/fontzone/abaddon_light-webfont.woff);
+        }
+
+      </style><style>
+
+      
+:root {
+
+  /* tysm to sadgrl.online for the layout builder! 
+  
+  /* applies to all areas */ 
+  --font-family: verdana, sans-serif;
+  --font-size: 10px;
+  --line-height: 1.3em;
+  --font-color: black;
+  --link-color: #22506A;
+  --link-text-decoration: none;
+
+  /* main content (between sidebars) */
+  --content-padding: 25px;
+  --content-bg-color: #f7f7f7;
+  --opacity:0.0;
+
+  /* header */
+  --header-height: 225px;
+  --header-background: url('https://seafare.neocities.org/images%20-%20index/SEAFARE%20RAINBOWBANNER.png');
+  --header-margin-bottom: 0px;
+
+  /* sidebar */
+  --sidebar-margin: 10px;
+  --sidebar-width: 200px;
+  --sidebar-padding: 15px;
+  --sidebar-bg-color: #f7f7f7;
+
+  /* footer */
+  --footer-height: 50px;
+  --footer-bg-color: #f7f7f7;
+
+  /* navbar */
+  --navitems-alignment: center;
+  --space-between-navitems: 20px;
+  --navbar-margin-bottom: 10px;
+  --nav-bg-color: #f7f7f7;
+
+  /* container */
+  --container-width: 800px;
+  --container-bg-color: #1591D1;
+  --opacity:0.0;
+
+  /* controls the gap between the content and the footer */
+  --row-gap: 5px;
+
+  /* To add scrollbars to your sidebars, just make the height a px value and change overflow to 'auto' */
+
+  --sidebar-height: 100%;
+  --sidebar-overflow: auto;
+  --background-color: #1591D1;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image:url('https://seafare.neocities.org/images%20-%20index/ac%20bg%20yay.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+ -o-background-size: cover;
+  background-size: cover;
+  background-color: var(--background-color);
+  font-family: verdana, sans-serif;
+  font-size: 12px;
+  line-height: 1.3em;
+  color: #000;                
+  }
+
+body a {
+  color: var(--link-color);
+  font-weight: bold;
+  text-decoration: var(--link-text-decoration);
+  }
+
+::-moz-selection {
+/* Code for Firefox */
+color: white;
+background: #FF8F87;
+}
+
+::selection {
+color: white;
+  background: #FF8F87;
+}
+
+
+
+#main-container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  background-color: var(--container-bg-color);
+}
+
+.flex {
+  display: flex;
+  margin-bottom: var(--row-gap);
+}
+
+
+.content-wrap {
+  margin-top: var(--content-margin-top);
+}
+
+.text-wrap-l {
+float: left;
+margin: 10px; 
+}
+
+.text-wrap-r {
+float: right;
+margin: 10px; 
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+
+.invisonmobile {
+display: none;
+}
+
+#content-container {
+  border: 1px #000 solid;
+  width: 60%;
+  margin-bottom: var(--row-gap);
+  background-color: var(--content-bg-color);
+   height: 720px;
+
+}
+
+#left-sidebar {
+  border: 1px #000 solid;
+  width: var(--sidebar-width);
+  margin-right: var(--sidebar-margin);
+  margin-bottom: var(--row-gap);
+  height: 720px;
+  overflow: hidden;
+  background-image:url('');
+  background-position:center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f7f7f7;
+  background-color: #f7f7f7;
+}
+
+#right-sidebar {
+ border: 1px #000 solid;
+  width: var(--sidebar-width);
+  margin-left: var(--sidebar-margin);
+  margin-bottom: var(--row-gap);
+  height: 720px;
+  overflow: hidden;
+  background-image:url('');
+  background-position:center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f7f7f7;
+  background-color: #f7f7f7;
+}
+
+#header-contained {
+  height: var(--header-height);
+  margin-bottom: var(--header-margin-bottom);
+  background-image: var(--header-background);
+  background-position: center center;
+}
+
+#footer {
+  border: 1px #000 solid;
+  height: var(--footer-height);
+  text-align: center;
+  color: var(--font-color);
+  background-color: var(--footer-bg-color);
+}
+
+#navbar-contained {
+  margin-bottom: var(--row-gap)
+}
+
+.nav {
+  font-family: 'abaddon_light';
+  font-size:20px;
+  margin-left: 0;
+  text-align: var(--navitems-alignment);
+  margin-top: 0;
+  margin-bottom: var(--navbar-margin-bottom);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: var(--nav-bg-color);
+  border: 1px #000 solid;
+}
+
+.nav li {
+  display: inline-block;
+  padding-right: var(--space-between-navitems);
+}
+
+.wrapper {
+  padding: var(--content-padding);
+  padding-top: var(--sidebar-padding);
+}
+
+.sidebar-wrapper {
+  padding: var(--sidebar-padding);
+  height: var(--sidebar-height);
+  overflow: var(--sidebar-overflow);
+}
+
+.footer-wrapper {
+  padding: 10px;            
+}
+
+.header1 {
+font-family: "abaddon_light"; 
+padding: 1px;
+text-align: center;
+background: #1E8DC4;
+color: #FFF;
+font-size: 30px;
+}
+
+.header2 {
+font-family: "abaddon_light"; 
+text-align: center;
+background: #f7f7f7;
+color: black;
+font-size: 10px;
+}
+
+ 
+.header3 {
+font-family: "abaddon_light"; 
+text-align: center;
+color: black;
+font-size: 30px;
+padding:4px;
+}
+
+
+#statuscafe {
+height:55px;
+width:auto;
+align: center;
+overflow:auto;
+background-color: #ededed;
+padding: 4px;
+font-size:8.5px;
+}
+
+
+#statuscafe-username {
+margin-bottom: .5em;
+}
+
+
+#statuscafe-content {
+margin: 0 1em 0.5em 1em;
+}
+
+
+.updates {
+background-color: #EDEDED;
+padding: 4px;
+height: 175px;
+overflow:auto;
+}
+
+
+
+/* To keep your site RESPONSIVE, make sure this variable matches the width for --container-width UNLESS --container-width is 100% - if it's 100%, you'll need to manually input a breakpoint. */
+
+@media only screen and (max-width: 800px) {
+  .flex {
+      flex-wrap: wrap;
+  }  
+
+  #left-sidebar {
+      width: 100%;
+      display: block;
+      order: 3;
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  #right-sidebar {
+      width: 100%;
+      display: block;
+      order: 4;
+      margin-left: 0;
+  }
+
+  #content-container {
+      width: 100%;
+      display: block;
+      order: 2;
+      margin-bottom: 10px;
+  }
+  
+  #header-contained {
+    width: 100%;
+    height: 85px;
+    display: block;
+    order: 1;
+    margin-right: 0;
+    margin-bottom: 0px;
+   background: url('https://seafare.neocities.org/images%20-%20index/bullet%20points/01%20star.png') no-repeat;
+   background-position: center center;
+  }
+  
+  #navbar-contained {
+  display: none;
+  }
+  
+ .header3 {
+   line-height: 25px;
+}
+
+
+</style><style>
+body.shimeji-pinned iframe {
+pointer-events: none;
+}
+body.shimeji-select-ie {
+cursor: cell !important;
+}
+#shimeji-contextMenu::-webkit-scrollbar {
+width: 6px;
+}
+#shimeji-contextMenu::-webkit-scrollbar-thumb {
+background-color: rgba(30,30,30,0.6);
+border-radius: 3px;
+}
+#shimeji-contextMenu::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+</style><meta name="shimejiBrowserExtensionId" content="gohjpllcolmccldfdggmamodembldgpc" data-version="2.0.5"></head>
+<body><div id="main-container">
+            <div id="header-contained" style="display: block;"></div>
+            <div id="navbar-contained">
+                <ul class="nav">
+                    <img src="https://seafare.neocities.org/images%20-%20index/bullet%20points/01%20star.png">
+                </ul>
+            </div>
+            
+            <div class="content-wrap flex alignment">
+                <div id="left-sidebar">
+                    <div class="sidebar-wrapper"><center><img src="https://seafare.neocities.org/images%20-%20index/red%20hibiscus.png" background="#000"></center>
+                    <div class="header2"><h2>nice gifs to look at</h2><center><img src="https://64.media.tumblr.com/e2b7cb5fb9e0e827e8646a6396c4717f/c233533d5a9c6406-08/s400x600/49d5af004c1ce3eca3907060406f3d047bc3919f.gifv"></center><center><img src="https://64.media.tumblr.com/db0cc530d74247a84708d833ff360c62/tumblr_inline_mi8c4cqJWi1roozkr.gif"></center><center><img src="https://cutekawaiiresources.wordpress.com/wp-content/uploads/2015/10/tumblr_inline_npqtz0ilui1ry72eo_500.gif?w=90"></center>
+                     <center><img src="https://64.media.tumblr.com/tumblr_m6fczgUAp61r7y61oo1_250.gif"></center></div>
+                
+
+
+                       
+                   
+                       
+
+
+
+                       
+                        </div>
+                </div>
+                <div id="content-container">
+                    <div class="wrapper">
+                    <div class="header1"><p>My little Message</p></div><br>
+                    <center><img src="https://seafare.neocities.org/images%20-%20index/tiny%20shells.png"></center>
+                    
+                    <img src="https://64.media.tumblr.com/f1fd7b8f074973ca2084de354978953e/ff14a7f09c3350bc-30/s250x400/8b0c08dacd348a9277b558ded276bc11b78e4c0f.pnj" class="text-wrap-l"><br>
+<center>Hey dad, I made this about 3 days in advance for u!<br><img src="https://64.media.tumblr.com/c1861cd88b87cf71903a44910ae8a7e5/tumblr_inline_p6m7owou1g1rhwzwl_75sq.gifv"><br> 
+    This Page is dedicated to you guys, because it's your special day and you deserve to be celebrated.<br><br>
+    i hope that you have a lovely time looking around!<br></center>
+<br>
+<center><img src="https://seafare.neocities.org/images%20-%20index/tiny%20shells.png"></center>
+<br>
+<div class="header3"><img src="https://seafare.neocities.org/images%20-%20index/15b7a52d.gif"> From Me to You <img src="https://seafare.neocities.org/images%20-%20index/book.gif"></div>
+<div class="updates"> 
+
+                        <p align="justify">
+                        
+                        <b>To Dad</b> - Dear Dad,
+
+Happy Father's Day! I wanted to take a moment to thank you for everything you do. I'll never forget the many times you've made me smile as you continue to do till this very day. For sticking around and choosing to be in my life, as not many people get that opportunity.  It taught me so much about being a grateful and appericating for what I have around me right now and for what's to come in the future. 
+
+I also really admire your work ethic. You always give 100% no matter what you're doing. It inspires me to work hard and never give up on my goals, which led to me putting my effort into this website you're looking at right now :).
+
+Thank you for always being there for me. You're the best dad a girl could ask for.
+
+Love,
+Briana<br><br>
+
+                        </div>
+                        
+<br><center><img src="https://64.media.tumblr.com/eef1545bd6946af31665a741458b751c/tumblr_inline_p7i55njAKM1rhwzwl_75sq.gifv"><img src="https://seafare.neocities.org/about/about%20-%20images/0ee13e5f.gif"></center>
+<center><img src="https://seafare.neocities.org/images%20-%20index/silver%20and%20totodile.png"><br></center>
+
+                </div>
+                </div>
+                <div id="right-sidebar">
+                    <div class="sidebar-wrapper"><center><img src="https://seafare.neocities.org/images%20-%20index/yellow%20hibiscus.png"><br></center>
+                  <div class="header2"><h2>nice gifs to look at</h2></div>
+                    <center><img src="https://64.media.tumblr.com/tumblr_lxgksvEKy71qkffxgo1_100.gif"></center>
+                     <center><img src=" https://i4.photobucket.com/albums/y120/Starberries_/Pixels%20and%20Buttons/People/Characters/Spongebob/patjellyfish.gif"></center>
+                    <center><img src="https://i4.photobucket.com/albums/y120/Starberries_/Pixels%20and%20Buttons/People/Characters/Spongebob/TrippySquid.gif"></center>
+                    <center><img src="https://64.media.tumblr.com/tumblr_m6fczgUAp61r7y61oo1_250.gif"></center>
+</div>
+                </div>
+            </div>
+            
+            <div id="footer">
+                <div class="footer-wrapper">
+                <center> <marquee scrollamount="5">
+		<font color="black" size="5">
+		<b>I love you so much to where I stayed up till 3am to finish this on Friday. I wanted to give you the best gift I could think of and this was kinda the best thing I could come up with!!</b>
+		</font>
+		</marquee></center></div></div>
+        </div><div id="shimeji-workArea" style="position: fixed; background: transparent; z-index: 2147483643; width: 100vw; height: 100vh; left: 0px; top: 0px; transform: translate(0px, 0px); pointer-events: none;"></div></body>
+</html>      
